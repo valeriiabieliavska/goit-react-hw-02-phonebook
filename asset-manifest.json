@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/valeriiabieliavska/goit-react-hw-02-phonebook/static/css/main.7acaea2f.css",
-    "main.js": "/valeriiabieliavska/goit-react-hw-02-phonebook/static/js/main.07d3183d.js",
+    "main.css": "/valeriiabieliavska/goit-react-hw-02-phonebook/static/css/main.d93b2aea.css",
+    "main.js": "/valeriiabieliavska/goit-react-hw-02-phonebook/static/js/main.032f9344.js",
     "index.html": "/valeriiabieliavska/goit-react-hw-02-phonebook/index.html",
-    "main.7acaea2f.css.map": "/valeriiabieliavska/goit-react-hw-02-phonebook/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/valeriiabieliavska/goit-react-hw-02-phonebook/static/js/main.07d3183d.js.map"
+    "main.d93b2aea.css.map": "/valeriiabieliavska/goit-react-hw-02-phonebook/static/css/main.d93b2aea.css.map",
+    "main.032f9344.js.map": "/valeriiabieliavska/goit-react-hw-02-phonebook/static/js/main.032f9344.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.d93b2aea.css",
+    "static/js/main.032f9344.js"
   ]
 }
