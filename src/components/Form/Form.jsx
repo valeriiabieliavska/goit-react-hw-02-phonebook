@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import { nanoid } from 'nanoid';
 import css from './Form.module.css';
 import PropTypes from 'prop-types';
 
@@ -7,6 +8,7 @@ class Form extends Component {
     name: '',
     number: '',
   };
+
 
   handleChange = event => {
     const { name, value } = event.currentTarget;
@@ -17,11 +19,13 @@ class Form extends Component {
     });
   };
 
-  handleSubmit = event => {
+  addContact = event => {
     event.preventDefault();
     console.log(this.state);
 
-      this.props.onSubmit(this.state);
+    const id = nanoid();
+
+      this.props.onSubmit(this.state, id);
       this.reset();
   };
 
@@ -31,7 +35,7 @@ class Form extends Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit} className={css.contactsForm}>
+      <form onSubmit={this.addContact} className={css.contactsForm}>
         <label className={css.inputName}>
           Name
           <input className={css.input}
@@ -63,6 +67,7 @@ class Form extends Component {
 }
 
 export default Form;
+
 
 Form.propTypes = {
   onSubmit: PropTypes.func.isRequired,
